@@ -251,7 +251,7 @@ app.get("/api/trainees", (req, res) => {
 
 
 
-const sendSms = require("./smsService"); // Import the SMS function
+
 
 app.post("/api/trainees", (req, res) => {
   const { trainee_fname, trainee_lname, email, telephone, password, status, assigned_to } = req.body;
