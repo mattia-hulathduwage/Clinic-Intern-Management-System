@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.rbc-time-slot {
+  height: 100px !important; /* Adjust height as needed */
+}
+
+.rbc-timeslot-group {
+  min-height: 100px !important; /* Makes each hourly slot bigger */
+}
+
+/* Target the date headers in the week view */
+.rbc-header span {
+  font-size: 16px !important;  /* Increase font size */
+  font-weight: 500 !important; /* Make text bold */
+  font-family: 'Poppins', sans-serif !important; /* Apply Poppins font */
+}
+
+/* Increase the height of the week view header container */
+.rbc-time-view .rbc-row.rbc-time-header-cell {
+  height: 60px !important; /* Adjust height as needed */
+  line-height: 40px !important; /* Align text vertically */
+}
+
+
+/* Ensure that the month view doesn’t overflow */
+.rbc-month-view {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}
+
+/* Ensure each cell in the month view has proper padding */
+.rbc-day-bg {
+  padding: 5px !important;
+  box-sizing: border-box;
+}
+
+
+
+
+
