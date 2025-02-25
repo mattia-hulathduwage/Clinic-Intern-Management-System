@@ -1,7 +1,7 @@
 # Clinic Intern Management System 🏥  
 
 A **web-based system** to manage clinic interns, track their tasks and shifts, and facilitate communication with doctors. The system helps interns submit patient care recommendations while allowing doctors to evaluate their performance.  
-
+![Alt text](https://github.com/mattia-hulathduwage/Clinic-Intern-Management-System/blob/master/screenshot.png?raw=true)
 ## Features  
 ✅ **Intern Task Management**: Interns receive tasks (Lab & Ward Visit), submit them, and get graded by doctors.  
 ✅ **Intern Shift Scheduling**: Admins assign shifts to interns in patient wards.  
